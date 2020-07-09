@@ -24,6 +24,10 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 # Inherit some common EvolutionX stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
+CUSTOM_BUILD_TYPE := OFFICIAL
+EVO_DONATE_URL := https://www.paypal.me/anierinbliss
+EVO_MAINTAINER := Professor
+EVO_SUPPORT_URL := https://t.me/EvolutionX_Vince
 TARGET_GAPPS_ARCH := arm64
 TARGET_INCLUDE_WIFI_EXT := true
 # Device identifier. This must come after all inclusions
