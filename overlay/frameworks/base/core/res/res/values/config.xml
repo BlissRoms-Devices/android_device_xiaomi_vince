@@ -571,7 +571,12 @@
     <!-- Smart charging -->
     <bool name="config_SmartChargingAvailable">true</bool>
 
-    <!-- Flag indicating whether we should enable smart battery. -->
+    <!-- Smart charge sysfs node and value for suspend/resume charging-->
+    <string name="config_SmartChargingSysfsNode" translatable="false">/sys/class/power_supply/battery/charging_enabled</string>
+    <string name="config_SmartChargingSupspendValue" translatable="false">1</string>
+    <string name="config_SmartChargingResumeValue" translatable="false">0</string> 
+    
+	<!-- Flag indicating whether we should enable smart battery. -->
     <bool name="config_smart_battery_available">true</bool>
     
 	<!-- Battery Health -->
