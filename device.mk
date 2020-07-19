@@ -389,8 +389,9 @@ PRODUCT_PACKAGES += \
 
 # VNDK
 PRODUCT_PACKAGES += \
-    vndk_package \
-    libstdc++.vendor
+    libstdc++.vendor \
+    vndk-sp \
+    vndk_package
 
 # VR
 PRODUCT_PACKAGES += \
