@@ -23,7 +23,8 @@ $(call inherit-product, device/xiaomi/vince/device.mk)
 
 # Inherit some common Bliss stuff.
 $(call inherit-product, vendor/bliss/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080e
+TARGET_BOOT_ANIMATION_RES := 1080
+BLISS_BUILDTYPE=OFFICIAL
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
 PRODUCT_NAME := bliss_vince
