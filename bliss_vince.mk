@@ -21,17 +21,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common EvolutionX stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
-CUSTOM_BUILD_TYPE := OFFICIAL
-EVO_DONATE_URL := https://www.paypal.me/anierinbliss
-EVO_MAINTAINER := Professor
-EVO_SUPPORT_URL := https://t.me/EvolutionX_Vince
-TARGET_GAPPS_ARCH := arm64
+# Inherit some common Bliss stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080e
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := aosp_vince
+PRODUCT_NAME := bliss_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi

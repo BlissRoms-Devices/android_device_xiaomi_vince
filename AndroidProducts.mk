@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The aospOS Project
+# Copyright (C) 2020 The blissOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_vince.mk
+    $(LOCAL_DIR)/bliss_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_vince-user \
-    aosp_vince-userdebug \
-    aosp_vince-eng
+    bliss_vince-user \
+    bliss_vince-userdebug \
+    bliss_vince-eng
