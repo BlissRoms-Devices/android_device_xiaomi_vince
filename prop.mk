@@ -2,10 +2,6 @@
 # system.prop for vince
 #
 
-# Android R Native Blur
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.surfaceflinger.supportsbackground_blur=1
-
 # ART
 PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.dex2oat-filter=speed \
