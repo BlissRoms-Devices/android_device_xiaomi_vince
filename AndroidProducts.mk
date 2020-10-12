@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2020 The RevengeOS Project
+# Copyright (C) 2020 The BlissOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/revengeos_vince.mk
+    $(LOCAL_DIR)/bliss_vince.mk
 
 COMMON_LUNCH_CHOICES := \
-    revengeos_vince-user \
-    revengeos_vince-userdebug \
-    revengeos_vince-eng
+    bliss_vince-user \
+    bliss_vince-userdebug \
+    bliss_vince-eng

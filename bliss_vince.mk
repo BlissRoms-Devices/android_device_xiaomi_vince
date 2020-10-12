@@ -1,6 +1,5 @@
 #
-# Copyright (C) 2020 The RevengeOS Project
-#
+# Copyright (C) 2020 The blissOS Project#
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -21,13 +20,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from vince device
 $(call inherit-product, device/xiaomi/vince/device.mk)
 
-# Inherit some common RevengeOS stuff.
-$(call inherit-product, vendor/revengeos/config/common.mk)
-TARGET_BOOT_ANIMATION_RES := 1440
+# Inherit some common BlissOS stuff.
+$(call inherit-product, vendor/bliss/config/common_full_phone.mk)
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := vince
-PRODUCT_NAME := revengeos_vince
+PRODUCT_NAME := bliss_vince
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5 Plus
 PRODUCT_MANUFACTURER := Xiaomi
@@ -35,7 +34,7 @@ TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
 # Build Official
-REVENGEOS_BUILDTYPE := OFFICIAL
+BLISS_BUILDTYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
